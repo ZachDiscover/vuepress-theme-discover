@@ -1,0 +1,33 @@
+{
+  "name": "@ZachDiscover/vuepress-theme-discover",
+  "version": "1.0.0",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "pkgRoot": "build"
+  },
+  "description": "add prefers-color-scheme for vuepress default theme",
+  "author": "tolking <qw13131wang@gmail.com>",
+  "license": "MIT",
+  "repository": "git:https://github.com/ZachDiscover/vuepress-theme-discover.git",
+  "bugs": {
+    "url": "https://github.com/ZachDiscover/vuepress-theme-discover.git/issues"
+  },
+  "homepage": "https://github.com/ZachDiscover/vuepress-theme-discover.git",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "serve": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "keywords": [
+    "vuepress",
+    "vuepress-theme",
+    "documentation",
+    "prefers-color-scheme",
+    "light-theme",
+    "dark-theme"
+  ],
+  "devDependencies": {
+    "vuepress": "^1.0.0"
+  }
+}
